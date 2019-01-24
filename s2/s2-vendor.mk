@@ -464,6 +464,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
     vendor/leeco/s2/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/leeco/s2/proprietary/vendor/bin/imsrcsd:system/vendor/bin/imsrcsd \
+    vendor/leeco/s2/proprietary/vendor/bin/init.uei.sh:system/vendor/bin/init.uei.sh \
     vendor/leeco/s2/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
     vendor/leeco/s2/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/leeco/s2/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
@@ -516,6 +517,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/leeco/s2/proprietary/vendor/etc/perf/perf-profile0.conf:system/vendor/etc/perf/perf-profile0.conf \
     vendor/leeco/s2/proprietary/vendor/etc/perf/perfboostsconfig.xml:system/vendor/etc/perf/perfboostsconfig.xml \
+    vendor/leeco/s2/proprietary/vendor/etc/UEISettings:system/vendor/etc/UEISettings \
     vendor/leeco/s2/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
     vendor/leeco/s2/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     vendor/leeco/s2/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.dpm.api@1.0_vendor.so \
@@ -869,6 +871,7 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     qcrilmsgtunnel \
     TimeService \
+    UEIQuicksetSDKLeTV \
     QtiTelephonyServicelibrary \
     qcrilhook \
     qti-telephony-common
