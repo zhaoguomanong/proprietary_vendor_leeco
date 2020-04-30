@@ -884,13 +884,13 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libloc_api_v02 \
     QtiTelephonyService \
+    UEIQuicksetSDKLeTV \
     uceShimService \
     ims \
     qcrilmsgtunnel \
     CneApp \
     IWlanService \
     TimeService \
-    UEIQuicksetSDKLeTV \
     imssettings \
     PowerOffAlarm \
     dpmserviceapp \
