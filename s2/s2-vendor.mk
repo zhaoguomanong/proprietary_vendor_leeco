@@ -861,6 +861,7 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libloc_api_v02 \
     QtiTelephonyService \
+    UEIQuicksetSDKLeTV \
     ims \
     imssettings \
     uceShimService \
@@ -869,7 +870,6 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     qcrilmsgtunnel \
     TimeService \
-    UEIQuicksetSDKLeTV \
     QtiTelephonyServicelibrary \
     qcrilhook \
     qti-telephony-common
